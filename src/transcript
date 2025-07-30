@@ -1,0 +1,309 @@
+# vsim -c top 
+# Start time: 15:32:55 on Jul 30,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-3838) alu_interface.sv(8): Variable 'e' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See top.sv(33). Variable is procedurally driven by e in clocking block reference_cb. See (alu_interface.sv:21).
+# 
+# ** Warning: (vopt-3838) alu_interface.sv(8): Variable 'l' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See top.sv(32). Variable is procedurally driven by l in clocking block reference_cb. See (alu_interface.sv:21).
+# 
+# ** Warning: (vopt-3838) alu_interface.sv(8): Variable 'g' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See top.sv(31). Variable is procedurally driven by g in clocking block reference_cb. See (alu_interface.sv:21).
+# 
+# ** Warning: (vopt-3838) alu_interface.sv(8): Variable 'err' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See top.sv(34). Variable is procedurally driven by err in clocking block reference_cb. See (alu_interface.sv:21).
+# 
+# ** Warning: (vopt-3838) alu_interface.sv(8): Variable 'oflow' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See top.sv(36). Variable is procedurally driven by oflow in clocking block reference_cb. See (alu_interface.sv:21).
+# 
+# ** Warning: (vopt-3838) alu_interface.sv(8): Variable 'cout' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See top.sv(35). Variable is procedurally driven by cout in clocking block reference_cb. See (alu_interface.sv:21).
+# 
+# ** Warning: (vopt-3838) alu_interface.sv(7): Variable 'res' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See top.sv(37). Variable is procedurally driven by res in clocking block reference_cb. See (alu_interface.sv:21).
+# 
+# //  Questa Sim
+# //  Version 10.6c linux Jul 25 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.alu_intf(fast)
+# Loading work.alu_package(fast)
+# Loading work.top(fast)
+# ** Warning: (vsim-3838) alu_interface.sv(7): Variable '/top/intf_alu/res' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See top.sv(37).
+#    Time: 0 ns  Iteration: 0  Instance: /top/intf_alu File: alu_interface.sv
+# ** Warning: (vsim-3838) alu_interface.sv(8): Variable '/top/intf_alu/cout' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See top.sv(35).
+#    Time: 0 ns  Iteration: 0  Instance: /top/intf_alu File: alu_interface.sv
+# ** Warning: (vsim-3838) alu_interface.sv(8): Variable '/top/intf_alu/oflow' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See top.sv(36).
+#    Time: 0 ns  Iteration: 0  Instance: /top/intf_alu File: alu_interface.sv
+# ** Warning: (vsim-3838) alu_interface.sv(8): Variable '/top/intf_alu/err' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See top.sv(34).
+#    Time: 0 ns  Iteration: 0  Instance: /top/intf_alu File: alu_interface.sv
+# ** Warning: (vsim-3838) alu_interface.sv(8): Variable '/top/intf_alu/g' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See top.sv(31).
+#    Time: 0 ns  Iteration: 0  Instance: /top/intf_alu File: alu_interface.sv
+# ** Warning: (vsim-3838) alu_interface.sv(8): Variable '/top/intf_alu/l' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See top.sv(32).
+#    Time: 0 ns  Iteration: 0  Instance: /top/intf_alu File: alu_interface.sv
+# ** Warning: (vsim-3838) alu_interface.sv(8): Variable '/top/intf_alu/e' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See top.sv(33).
+#    Time: 0 ns  Iteration: 0  Instance: /top/intf_alu File: alu_interface.sv
+# 
+# ----------------------------------------------------- Randomised values --------------------------------------------------------------------- 
+# 
+# 
+#  Time :                    0 | CE = 1 | MODE = 1 | INP_VALID = 11 | CIN = 1 | OPA =  11 | OPB =  20 
+# 
+# 
+# ----------------------------------------------------- Randomised values --------------------------------------------------------------------- 
+# 
+# 
+#  Time :                    0 | CE = 1 | MODE = 1 | INP_VALID = 11 | CIN = 1 | OPA = 104 | OPB = 117 
+# 
+# 
+# ----------------------------------------------------- Randomised values --------------------------------------------------------------------- 
+# 
+# 
+#  Time :                    0 | CE = 1 | MODE = 1 | INP_VALID = 11 | CIN = 0 | OPA = 234 | OPB = 114 
+# 
+# 
+# ----------------------------------------------------- Randomised values --------------------------------------------------------------------- 
+# 
+# 
+#  Time :                    0 | CE = 1 | MODE = 1 | INP_VALID = 11 | CIN = 0 | OPA =  37 | OPB = 105 
+# 
+# 
+# ----------------------------------------------------- Randomised values --------------------------------------------------------------------- 
+# 
+# 
+#  Time :                    0 | CE = 1 | MODE = 1 | INP_VALID = 11 | CIN = 1 | OPA = 100 | OPB = 171 
+# 
+# 
+# ----------------------------------------------------- Randomised values --------------------------------------------------------------------- 
+# 
+# 
+#  Time :                    0 | CE = 1 | MODE = 1 | INP_VALID = 11 | CIN = 1 | OPA = 145 | OPB =  53 
+# 
+# 
+# ----------------------------------------------------- Randomised values --------------------------------------------------------------------- 
+# 
+# 
+#  Time :                    0 | CE = 1 | MODE = 1 | INP_VALID = 11 | CIN = 1 | OPA = 145 | OPB =  67 
+# 
+# 
+# ----------------------------------------------------- Randomised values --------------------------------------------------------------------- 
+# 
+# 
+#  Time :                    0 | CE = 1 | MODE = 1 | INP_VALID = 11 | CIN = 0 | OPA = 134 | OPB =  78 
+# 
+# 
+# ----------------------------------------------------- Randomised values --------------------------------------------------------------------- 
+# 
+# 
+#  Time :                    0 | CE = 1 | MODE = 1 | INP_VALID = 11 | CIN = 1 | OPA = 228 | OPB = 197 
+# 
+# 
+# ----------------------------------------------------- Randomised values --------------------------------------------------------------------- 
+# 
+# 
+#  Time :                    0 | CE = 1 | MODE = 1 | INP_VALID = 11 | CIN = 0 | OPA = 184 | OPB = 202 
+# 
+# 
+# ----------------------------------------------------- Randomised values --------------------------------------------------------------------- 
+# 
+# 
+#  Time :                    0 | CE = 1 | MODE = 1 | INP_VALID = 11 | CIN = 1 | OPA =  64 | OPB =  82 
+# 
+# 
+# ----------------------------------------------------- Randomised values --------------------------------------------------------------------- 
+# 
+# 
+#  Time :                    0 | CE = 1 | MODE = 1 | INP_VALID = 11 | CIN = 1 | OPA =  90 | OPB = 178 
+# 
+# 
+# ----------------------------------------------------- Randomised values --------------------------------------------------------------------- 
+# 
+# 
+#  Time :                    0 | CE = 1 | MODE = 1 | INP_VALID = 11 | CIN = 0 | OPA = 190 | OPB = 112 
+# 
+# 
+# ----------------------------------------------------- Randomised values --------------------------------------------------------------------- 
+# 
+# 
+#  Time :                    0 | CE = 1 | MODE = 1 | INP_VALID = 11 | CIN = 1 | OPA = 166 | OPB = 180 
+# 
+# 
+# ----------------------------------------------------- Randomised values --------------------------------------------------------------------- 
+# 
+# 
+#  Time :                    0 | CE = 1 | MODE = 1 | INP_VALID = 11 | CIN = 0 | OPA =  17 | OPB =  53 
+# 
+# 
+# ----------------------------------------------------- Randomised values --------------------------------------------------------------------- 
+# 
+# 
+#  Time :                    0 | CE = 1 | MODE = 1 | INP_VALID = 11 | CIN = 1 | OPA = 225 | OPB =  12 
+# 
+# 
+# ----------------------------------------------------- Randomised values --------------------------------------------------------------------- 
+# 
+# 
+#  Time :                    0 | CE = 1 | MODE = 1 | INP_VALID = 11 | CIN = 0 | OPA =  25 | OPB = 131 
+# 
+# 
+# ----------------------------------------------------- Randomised values --------------------------------------------------------------------- 
+# 
+# 
+#  Time :                    0 | CE = 1 | MODE = 1 | INP_VALID = 11 | CIN = 1 | OPA = 201 | OPB =  19 
+# 
+# 
+# ----------------------------------------------------- Randomised values --------------------------------------------------------------------- 
+# 
+# 
+#  Time :                    0 | CE = 1 | MODE = 1 | INP_VALID = 11 | CIN = 1 | OPA = 179 | OPB =  60 
+# 
+# 
+# ----------------------------------------------------- Randomised values --------------------------------------------------------------------- 
+# 
+# 
+#  Time :                    0 | CE = 1 | MODE = 1 | INP_VALID = 11 | CIN = 0 | OPA =  96 | OPB = 141 
+# 
+# DRIVER WRITE OPERATION DRIVING DATA TO THE INTERFACE ce=1,cin=1,opa= 11,opb= 20,mode=1,inp_valid=3,cmd =  9                  90
+# reference op opa= 11,opb= 20,cmd= 9,inp_valid=3,res=252,err=z,oflow=z,cout=z,g=z,l=z,e=z                  90
+# Monitor output res =      X , cout = z, oflow = z, err = z, g = z, l = z , e = z                 110
+# SCOREBOARD REF RES[mon]=X, RES[ref]=252 COUT[mon]=z, COUT[ref]=z OFLOW[mon]=z, OFLOW[ref]=z E[mon]=z, E[ref]=z G[mon]=z, G[ref]=z L[mon]=z, L[ref]=z ERR[mon]=z, ERR[ref]=z                 110
+# DATA MATCH FAILED MISMATCH=          1
+# -------------------------------------------------------------------------------------------------------------------------------------
+# DRIVER WRITE OPERATION DRIVING DATA TO THE INTERFACE ce=1,cin=1,opa=104,opb=117,mode=1,inp_valid=3,cmd =  9                 130
+# reference op opa=104,opb=117,cmd= 9,inp_valid=3,res=102,err=z,oflow=z,cout=z,g=z,l=z,e=z                 130
+# Monitor output res =    252 , cout = z, oflow = z, err = z, g = z, l = z , e = z                 150
+# SCOREBOARD REF RES[mon]=252, RES[ref]=102 COUT[mon]=z, COUT[ref]=z OFLOW[mon]=z, OFLOW[ref]=z E[mon]=z, E[ref]=z G[mon]=z, G[ref]=z L[mon]=z, L[ref]=z ERR[mon]=z, ERR[ref]=z                 150
+# DATA MATCH FAILED MISMATCH=          2
+# -------------------------------------------------------------------------------------------------------------------------------------
+# DRIVER WRITE OPERATION DRIVING DATA TO THE INTERFACE ce=1,cin=0,opa=234,opb=114,mode=1,inp_valid=3,cmd =  9                 170
+# reference op opa=234,opb=114,cmd= 9,inp_valid=3,res=401,err=z,oflow=z,cout=z,g=z,l=z,e=z                 170
+# Monitor output res =    102 , cout = z, oflow = z, err = z, g = z, l = z , e = z                 190
+# SCOREBOARD REF RES[mon]=102, RES[ref]=401 COUT[mon]=z, COUT[ref]=z OFLOW[mon]=z, OFLOW[ref]=z E[mon]=z, E[ref]=z G[mon]=z, G[ref]=z L[mon]=z, L[ref]=z ERR[mon]=z, ERR[ref]=z                 190
+# DATA MATCH FAILED MISMATCH=          3
+# -------------------------------------------------------------------------------------------------------------------------------------
+# DRIVER WRITE OPERATION DRIVING DATA TO THE INTERFACE ce=1,cin=0,opa= 37,opb=105,mode=1,inp_valid=3,cmd =  9                 210
+# reference op opa= 37,opb=105,cmd= 9,inp_valid=3,res=444,err=z,oflow=z,cout=z,g=z,l=z,e=z                 210
+# Monitor output res =    401 , cout = z, oflow = z, err = z, g = z, l = z , e = z                 230
+# SCOREBOARD REF RES[mon]=401, RES[ref]=444 COUT[mon]=z, COUT[ref]=z OFLOW[mon]=z, OFLOW[ref]=z E[mon]=z, E[ref]=z G[mon]=z, G[ref]=z L[mon]=z, L[ref]=z ERR[mon]=z, ERR[ref]=z                 230
+# DATA MATCH FAILED MISMATCH=          4
+# -------------------------------------------------------------------------------------------------------------------------------------
+# DRIVER WRITE OPERATION DRIVING DATA TO THE INTERFACE ce=1,cin=1,opa=100,opb=171,mode=1,inp_valid=3,cmd =  9                 250
+# reference op opa=100,opb=171,cmd= 9,inp_valid=3,res=476,err=z,oflow=z,cout=z,g=z,l=z,e=z                 250
+# Monitor output res =    444 , cout = z, oflow = z, err = z, g = z, l = z , e = z                 270
+# SCOREBOARD REF RES[mon]=444, RES[ref]=476 COUT[mon]=z, COUT[ref]=z OFLOW[mon]=z, OFLOW[ref]=z E[mon]=z, E[ref]=z G[mon]=z, G[ref]=z L[mon]=z, L[ref]=z ERR[mon]=z, ERR[ref]=z                 270
+# DATA MATCH FAILED MISMATCH=          5
+# -------------------------------------------------------------------------------------------------------------------------------------
+# DRIVER WRITE OPERATION DRIVING DATA TO THE INTERFACE ce=1,cin=1,opa=145,opb= 53,mode=1,inp_valid=3,cmd =  9                 290
+# reference op opa=145,opb= 53,cmd= 9,inp_valid=3,res=204,err=z,oflow=z,cout=z,g=z,l=z,e=z                 290
+# Monitor output res =    476 , cout = z, oflow = z, err = z, g = z, l = z , e = z                 310
+# SCOREBOARD REF RES[mon]=476, RES[ref]=204 COUT[mon]=z, COUT[ref]=z OFLOW[mon]=z, OFLOW[ref]=z E[mon]=z, E[ref]=z G[mon]=z, G[ref]=z L[mon]=z, L[ref]=z ERR[mon]=z, ERR[ref]=z                 310
+# DATA MATCH FAILED MISMATCH=          6
+# -------------------------------------------------------------------------------------------------------------------------------------
+# DRIVER WRITE OPERATION DRIVING DATA TO THE INTERFACE ce=1,cin=1,opa=145,opb= 67,mode=1,inp_valid=3,cmd =  9                 330
+# reference op opa=145,opb= 67,cmd= 9,inp_valid=3,res=200,err=z,oflow=z,cout=z,g=z,l=z,e=z                 330
+# Monitor output res =    204 , cout = z, oflow = z, err = z, g = z, l = z , e = z                 350
+# SCOREBOARD REF RES[mon]=204, RES[ref]=200 COUT[mon]=z, COUT[ref]=z OFLOW[mon]=z, OFLOW[ref]=z E[mon]=z, E[ref]=z G[mon]=z, G[ref]=z L[mon]=z, L[ref]=z ERR[mon]=z, ERR[ref]=z                 350
+# DATA MATCH FAILED MISMATCH=          7
+# -------------------------------------------------------------------------------------------------------------------------------------
+# DRIVER WRITE OPERATION DRIVING DATA TO THE INTERFACE ce=1,cin=0,opa=134,opb= 78,mode=1,inp_valid=3,cmd =  9                 370
+# reference op opa=134,opb= 78,cmd= 9,inp_valid=3,res=425,err=z,oflow=z,cout=z,g=z,l=z,e=z                 370
+# Monitor output res =    200 , cout = z, oflow = z, err = z, g = z, l = z , e = z                 390
+# SCOREBOARD REF RES[mon]=200, RES[ref]=425 COUT[mon]=z, COUT[ref]=z OFLOW[mon]=z, OFLOW[ref]=z E[mon]=z, E[ref]=z G[mon]=z, G[ref]=z L[mon]=z, L[ref]=z ERR[mon]=z, ERR[ref]=z                 390
+# DATA MATCH FAILED MISMATCH=          8
+# -------------------------------------------------------------------------------------------------------------------------------------
+# DRIVER WRITE OPERATION DRIVING DATA TO THE INTERFACE ce=1,cin=1,opa=228,opb=197,mode=1,inp_valid=3,cmd =  9                 410
+# reference op opa=228,opb=197,cmd= 9,inp_valid=3,res=286,err=z,oflow=z,cout=z,g=z,l=z,e=z                 410
+# Monitor output res =    425 , cout = z, oflow = z, err = z, g = z, l = z , e = z                 430
+# SCOREBOARD REF RES[mon]=425, RES[ref]=286 COUT[mon]=z, COUT[ref]=z OFLOW[mon]=z, OFLOW[ref]=z E[mon]=z, E[ref]=z G[mon]=z, G[ref]=z L[mon]=z, L[ref]=z ERR[mon]=z, ERR[ref]=z                 430
+# DATA MATCH FAILED MISMATCH=          9
+# -------------------------------------------------------------------------------------------------------------------------------------
+# DRIVER WRITE OPERATION DRIVING DATA TO THE INTERFACE ce=1,cin=0,opa=184,opb=202,mode=1,inp_valid=3,cmd =  9                 450
+# reference op opa=184,opb=202,cmd= 9,inp_valid=3,res=179,err=z,oflow=z,cout=z,g=z,l=z,e=z                 450
+# Monitor output res =    286 , cout = z, oflow = z, err = z, g = z, l = z , e = z                 470
+# SCOREBOARD REF RES[mon]=286, RES[ref]=179 COUT[mon]=z, COUT[ref]=z OFLOW[mon]=z, OFLOW[ref]=z E[mon]=z, E[ref]=z G[mon]=z, G[ref]=z L[mon]=z, L[ref]=z ERR[mon]=z, ERR[ref]=z                 470
+# DATA MATCH FAILED MISMATCH=         10
+# -------------------------------------------------------------------------------------------------------------------------------------
+# DRIVER WRITE OPERATION DRIVING DATA TO THE INTERFACE ce=1,cin=1,opa= 64,opb= 82,mode=1,inp_valid=3,cmd =  9                 490
+# reference op opa= 64,opb= 82,cmd= 9,inp_valid=3,res=275,err=z,oflow=z,cout=z,g=z,l=z,e=z                 490
+# Monitor output res =    179 , cout = z, oflow = z, err = z, g = z, l = z , e = z                 510
+# SCOREBOARD REF RES[mon]=179, RES[ref]=275 COUT[mon]=z, COUT[ref]=z OFLOW[mon]=z, OFLOW[ref]=z E[mon]=z, E[ref]=z G[mon]=z, G[ref]=z L[mon]=z, L[ref]=z ERR[mon]=z, ERR[ref]=z                 510
+# DATA MATCH FAILED MISMATCH=         11
+# -------------------------------------------------------------------------------------------------------------------------------------
+# DRIVER WRITE OPERATION DRIVING DATA TO THE INTERFACE ce=1,cin=1,opa= 90,opb=178,mode=1,inp_valid=3,cmd =  9                 530
+# reference op opa= 90,opb=178,cmd= 9,inp_valid=3,res=417,err=z,oflow=z,cout=z,g=z,l=z,e=z                 530
+# Monitor output res =    275 , cout = z, oflow = z, err = z, g = z, l = z , e = z                 550
+# SCOREBOARD REF RES[mon]=275, RES[ref]=417 COUT[mon]=z, COUT[ref]=z OFLOW[mon]=z, OFLOW[ref]=z E[mon]=z, E[ref]=z G[mon]=z, G[ref]=z L[mon]=z, L[ref]=z ERR[mon]=z, ERR[ref]=z                 550
+# DATA MATCH FAILED MISMATCH=         12
+# -------------------------------------------------------------------------------------------------------------------------------------
+# DRIVER WRITE OPERATION DRIVING DATA TO THE INTERFACE ce=1,cin=0,opa=190,opb=112,mode=1,inp_valid=3,cmd =  9                 570
+# reference op opa=190,opb=112,cmd= 9,inp_valid=3,res= 79,err=z,oflow=z,cout=z,g=z,l=z,e=z                 570
+# Monitor output res =    417 , cout = z, oflow = z, err = z, g = z, l = z , e = z                 590
+# SCOREBOARD REF RES[mon]=417, RES[ref]=79 COUT[mon]=z, COUT[ref]=z OFLOW[mon]=z, OFLOW[ref]=z E[mon]=z, E[ref]=z G[mon]=z, G[ref]=z L[mon]=z, L[ref]=z ERR[mon]=z, ERR[ref]=z                 590
+# DATA MATCH FAILED MISMATCH=         13
+# -------------------------------------------------------------------------------------------------------------------------------------
+# DRIVER WRITE OPERATION DRIVING DATA TO THE INTERFACE ce=1,cin=1,opa=166,opb=180,mode=1,inp_valid=3,cmd =  9                 610
+# reference op opa=166,opb=180,cmd= 9,inp_valid=3,res= 19,err=z,oflow=z,cout=z,g=z,l=z,e=z                 610
+# Monitor output res =     79 , cout = z, oflow = z, err = z, g = z, l = z , e = z                 630
+# SCOREBOARD REF RES[mon]=79, RES[ref]=19 COUT[mon]=z, COUT[ref]=z OFLOW[mon]=z, OFLOW[ref]=z E[mon]=z, E[ref]=z G[mon]=z, G[ref]=z L[mon]=z, L[ref]=z ERR[mon]=z, ERR[ref]=z                 630
+# DATA MATCH FAILED MISMATCH=         14
+# -------------------------------------------------------------------------------------------------------------------------------------
+# DRIVER WRITE OPERATION DRIVING DATA TO THE INTERFACE ce=1,cin=0,opa= 17,opb= 53,mode=1,inp_valid=3,cmd =  9                 650
+# reference op opa= 17,opb= 53,cmd= 9,inp_valid=3,res=460,err=z,oflow=z,cout=z,g=z,l=z,e=z                 650
+# Monitor output res =     19 , cout = z, oflow = z, err = z, g = z, l = z , e = z                 670
+# SCOREBOARD REF RES[mon]=19, RES[ref]=460 COUT[mon]=z, COUT[ref]=z OFLOW[mon]=z, OFLOW[ref]=z E[mon]=z, E[ref]=z G[mon]=z, G[ref]=z L[mon]=z, L[ref]=z ERR[mon]=z, ERR[ref]=z                 670
+# DATA MATCH FAILED MISMATCH=         15
+# -------------------------------------------------------------------------------------------------------------------------------------
+# DRIVER WRITE OPERATION DRIVING DATA TO THE INTERFACE ce=1,cin=1,opa=225,opb= 12,mode=1,inp_valid=3,cmd =  9                 690
+# reference op opa=225,opb= 12,cmd= 9,inp_valid=3,res=378,err=z,oflow=z,cout=z,g=z,l=z,e=z                 690
+# Monitor output res =    460 , cout = z, oflow = z, err = z, g = z, l = z , e = z                 710
+# SCOREBOARD REF RES[mon]=460, RES[ref]=378 COUT[mon]=z, COUT[ref]=z OFLOW[mon]=z, OFLOW[ref]=z E[mon]=z, E[ref]=z G[mon]=z, G[ref]=z L[mon]=z, L[ref]=z ERR[mon]=z, ERR[ref]=z                 710
+# DATA MATCH FAILED MISMATCH=         16
+# -------------------------------------------------------------------------------------------------------------------------------------
+# DRIVER WRITE OPERATION DRIVING DATA TO THE INTERFACE ce=1,cin=0,opa= 25,opb=131,mode=1,inp_valid=3,cmd =  9                 730
+# reference op opa= 25,opb=131,cmd= 9,inp_valid=3,res=360,err=z,oflow=z,cout=z,g=z,l=z,e=z                 730
+# Monitor output res =    378 , cout = z, oflow = z, err = z, g = z, l = z , e = z                 750
+# SCOREBOARD REF RES[mon]=378, RES[ref]=360 COUT[mon]=z, COUT[ref]=z OFLOW[mon]=z, OFLOW[ref]=z E[mon]=z, E[ref]=z G[mon]=z, G[ref]=z L[mon]=z, L[ref]=z ERR[mon]=z, ERR[ref]=z                 750
+# DATA MATCH FAILED MISMATCH=         17
+# -------------------------------------------------------------------------------------------------------------------------------------
+# DRIVER WRITE OPERATION DRIVING DATA TO THE INTERFACE ce=1,cin=1,opa=201,opb= 19,mode=1,inp_valid=3,cmd =  9                 770
+# reference op opa=201,opb= 19,cmd= 9,inp_valid=3,res=456,err=z,oflow=z,cout=z,g=z,l=z,e=z                 770
+# Monitor output res =    360 , cout = z, oflow = z, err = z, g = z, l = z , e = z                 790
+# SCOREBOARD REF RES[mon]=360, RES[ref]=456 COUT[mon]=z, COUT[ref]=z OFLOW[mon]=z, OFLOW[ref]=z E[mon]=z, E[ref]=z G[mon]=z, G[ref]=z L[mon]=z, L[ref]=z ERR[mon]=z, ERR[ref]=z                 790
+# DATA MATCH FAILED MISMATCH=         18
+# -------------------------------------------------------------------------------------------------------------------------------------
+# DRIVER WRITE OPERATION DRIVING DATA TO THE INTERFACE ce=1,cin=1,opa=179,opb= 60,mode=1,inp_valid=3,cmd =  9                 810
+# reference op opa=179,opb= 60,cmd= 9,inp_valid=3,res=228,err=z,oflow=z,cout=z,g=z,l=z,e=z                 810
+# Monitor output res =    456 , cout = z, oflow = z, err = z, g = z, l = z , e = z                 830
+# SCOREBOARD REF RES[mon]=456, RES[ref]=228 COUT[mon]=z, COUT[ref]=z OFLOW[mon]=z, OFLOW[ref]=z E[mon]=z, E[ref]=z G[mon]=z, G[ref]=z L[mon]=z, L[ref]=z ERR[mon]=z, ERR[ref]=z                 830
+# DATA MATCH FAILED MISMATCH=         19
+# -------------------------------------------------------------------------------------------------------------------------------------
+# DRIVER WRITE OPERATION DRIVING DATA TO THE INTERFACE ce=1,cin=0,opa= 96,opb=141,mode=1,inp_valid=3,cmd =  9                 850
+# reference op opa= 96,opb=141,cmd= 9,inp_valid=3,res=462,err=z,oflow=z,cout=z,g=z,l=z,e=z                 850
+# Monitor output res =    228 , cout = z, oflow = z, err = z, g = z, l = z , e = z                 870
+# SCOREBOARD REF RES[mon]=228, RES[ref]=462 COUT[mon]=z, COUT[ref]=z OFLOW[mon]=z, OFLOW[ref]=z E[mon]=z, E[ref]=z G[mon]=z, G[ref]=z L[mon]=z, L[ref]=z ERR[mon]=z, ERR[ref]=z                 870
+# DATA MATCH FAILED MISMATCH=         20
+# -------------------------------------------------------------------------------------------------------------------------------------
+# SCOREBOARD REF RES[mon]=228, RES[ref]=462 COUT[mon]=z, COUT[ref]=z OFLOW[mon]=z, OFLOW[ref]=z E[mon]=z, E[ref]=z G[mon]=z, G[ref]=z L[mon]=z, L[ref]=z ERR[mon]=z, ERR[ref]=z                 890
+# DATA MATCH FAILED MISMATCH=         21
+# ** Note: $finish    : top.sv(48)
+#    Time: 890 ns  Iteration: 4  Instance: /top
+# End time: 15:32:59 on Jul 30,2025, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 14
