@@ -3,7 +3,7 @@
 
 `include "defines.svh"
 
-module cover_age(
+module assertion(
     input  clk, 
     input  rst, 
     input  CE, 
