@@ -1,6 +1,7 @@
 `include "alu_interface.sv"
 `include "alu.v"
 `include "alu_pkg.sv"
+ `include "assertion.sv"
 module top( );
   import alu_package::*;
   bit clk;
@@ -8,6 +9,7 @@ module top( );
 
   initial
     begin
+	    clk = 0;
      forever #10 clk=~clk;
   end
 
@@ -38,7 +40,8 @@ module top( );
             .CLK(clk),
             .RST(rst)
            );
-
+	   
+	   assertion dut_assertion(clk,rst,intf_alu.ce,intf_alu.mode,intf_alu.cmd,intf_alu.inp_valid,intf_alu.opa,intf_alu.opb,intf_alu.cin,intf_alu.res);
 	   test tb;  
   initial
    begin
@@ -48,3 +51,5 @@ module top( );
     $finish;
   end
 endmodule
+
+
